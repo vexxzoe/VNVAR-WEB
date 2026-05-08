@@ -12,7 +12,7 @@ const DocsPage = () => {
   const resources = [
     { title: t.resources.install, type: "Image", icon: FileText, link: "/assets/VNVAR assets/HDSD_VNVAR_LIVE.png", external: true },
     { title: t.resources.api, type: "PDF", icon: FileText, link: "/assets/VNVAR assets/live_smart.pdf", external: true },
-    { title: t.resources.video, type: "Video", icon: Play, link: "/assets/VNVAR assets/HDSD.mp4", external: true },
+    { title: t.resources.video, type: "Video", icon: Play, link: "/assets/VNVAR assets/HDSD_VNVAR.mp4", external: true },
     { title: t.resources.tutorials, type: "TikTok", icon: Youtube, link: "https://www.tiktok.com/@vndctech/video/7587247498247376149?lang=en", external: true }
   ];
 
