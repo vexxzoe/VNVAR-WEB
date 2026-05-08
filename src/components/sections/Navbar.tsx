@@ -85,13 +85,7 @@ const Navbar = () => {
       href: '/lcd',
       desc: t.nav.lcdDesc,
       icon: Monitor
-    },
-    {
-      name: t.nav.led,
-      href: '/led',
-      desc: t.nav.ledDesc,
-      icon: Tv
-    },
+    }
   ];
 
   return (
@@ -103,7 +97,7 @@ const Navbar = () => {
     )}>
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/" className="flex-shrink-0">
-          <Logo variant="image" logoUrl="/assets/logos/vnsign-white.png" />
+          <Logo variant="image" logoUrl="/assets/logos/vnvar-white.png" />
         </Link>
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-8">
@@ -161,16 +155,16 @@ const Navbar = () => {
             </div>
           ))}
           <div className="flex items-center gap-3">
-            <button 
+            <button
               onClick={() => setLanguage(language === 'vi' ? 'en' : 'vi')}
               className="text-white hover:text-accent-400 transition-all flex items-center gap-2 px-3 py-1.5 rounded-lg hover:bg-white/10 active:scale-95 group"
-              title={language === 'vi' ? 'Switch to English' : 'Chuyển sang Tiếng Việt'}
+              title={language === 'vi' ? t.nav.langEn : t.nav.langVi}
             >
               <Globe className="w-5 h-5 group-hover:rotate-12 transition-transform" />
               <span className="text-xs font-black tracking-widest uppercase">{language}</span>
             </button>
             <a
-              href="https://www.tiktok.com/@vnvar.vn?is_from_webapp=1&sender_device=pc"
+              href="https://www.tiktok.com/@vndctech?is_from_webapp=1&sender_device=pc"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-white/60 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-white/10 hover:border-white transition-all active:scale-95"
@@ -178,10 +172,10 @@ const Navbar = () => {
               {t.nav.demo}
             </a>
             <button
-              onClick={() => openContactModal('Giải pháp VNSIGN')}
+              onClick={() => openContactModal(t.nav.quote)}
               className="px-5 py-2.5 rounded-full text-sm font-bold hover:scale-105 transition-all shadow-lg active:scale-95 cursor-pointer"
-              style={{ 
-                background: isScrolled ? '#086788' : 'rgba(255,193,7,1)', 
+              style={{
+                background: isScrolled ? '#086788' : 'rgba(255,193,7,1)',
                 color: isScrolled ? '#fff' : '#02222e',
                 boxShadow: isScrolled ? '0 10px 15px -3px rgba(8,103,136,0.3)' : '0 10px 15px -3px rgba(255,193,7,0.3)'
               }}
@@ -267,7 +261,7 @@ const Navbar = () => {
               ))}
               <motion.button
                 onClick={() => {
-                  openContactModal('Giải pháp VNSIGN');
+                  openContactModal(t.nav.tryNow);
                   setIsMobileMenuOpen(false);
                 }}
                 variants={{

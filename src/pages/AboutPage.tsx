@@ -40,7 +40,7 @@ const AboutPage = () => {
 
   const ecosystem = [
     { id: "tech", icon: Laptop, name: t.aboutPage.ecosystem.items.tech.name, tag: t.aboutPage.ecosystem.items.tech.tag, desc: t.aboutPage.ecosystem.items.tech.desc },
-    { id: "vnsign", icon: Tv, name: t.aboutPage.ecosystem.items.vnsign.name, tag: t.aboutPage.ecosystem.items.vnsign.tag, desc: t.aboutPage.ecosystem.items.vnsign.desc, highlight: true },
+    { id: "vnvar_signage", icon: Tv, name: t.aboutPage.ecosystem.items.vnsign.name, tag: t.aboutPage.ecosystem.items.vnsign.tag, desc: t.aboutPage.ecosystem.items.vnsign.desc, highlight: true },
     { id: "vnvar", icon: Trophy, name: t.aboutPage.ecosystem.items.vnvar.name, tag: t.aboutPage.ecosystem.items.vnvar.tag, desc: t.aboutPage.ecosystem.items.vnvar.desc },
     { id: "vnwifi", icon: Wifi, name: t.aboutPage.ecosystem.items.vnwifi.name, tag: t.aboutPage.ecosystem.items.vnwifi.tag, desc: t.aboutPage.ecosystem.items.vnwifi.desc },
     { id: "vncrm", icon: Handshake, name: t.aboutPage.ecosystem.items.vncrm.name, tag: t.aboutPage.ecosystem.items.vncrm.tag, desc: t.aboutPage.ecosystem.items.vncrm.desc },

@@ -31,8 +31,7 @@ const LEDScreens = () => {
             <div>
               <h3 className="text-3xl font-black text-brand-950 mb-6 uppercase tracking-tight">{t.led.advantagesTitle}</h3>
               <p className="text-brand-500 mb-8 leading-relaxed">
-                Giải pháp màn hình LED khổ lớn của VNSIGN mang đến khả năng hiển thị ấn tượng với độ sáng cực cao,
-                phù hợp cho cả không gian trong nhà và ngoài trời với kích thước không giới hạn.
+                {t.led.description}
               </p>
             </div>
             <ul className="space-y-4 mb-8">
@@ -58,7 +57,7 @@ const LEDScreens = () => {
               </div>
               <div className="relative rounded-[32px] overflow-hidden shadow-2xl group aspect-[4/5]">
                 <img
-                  src="/assets/case-studies/AEON-BETA/IMG/Screenshot 2026-04-24 154644.png"
+                  src="/assets/VNVAR assets/Màn VAR Pickleball/3cf57173-1d72-42d5-b339-5d3a72a2c300.jpg"
                   alt="Outdoor LED Wall"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5s]"
                 />
@@ -66,12 +65,12 @@ const LEDScreens = () => {
             </div>
             <div className="relative rounded-[32px] overflow-hidden shadow-2xl group aspect-[4/5]">
               <img
-                src="/assets/case-studies/AEON-BETA/IMG/Screenshot 2026-04-24 154445.png"
+                src="/assets/VNVAR assets/IMG/z7413165128989_3548d874e164c88e990bd7af1907dea5.jpg"
                 alt="Outdoor LED Wall"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5s]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-6">
-                <span className="text-white font-bold text-xs uppercase tracking-widest">Outdoor LED Wall</span>
+                <span className="text-white font-bold text-xs uppercase tracking-widest"></span>
               </div>
             </div>
           </div>

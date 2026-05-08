@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
-import { 
-  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play, 
-  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings, 
+import {
+  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play,
+  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings,
   BarChart3, ChevronDown, FileText, Youtube, Award, Users, Rocket, HeartHandshake
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -20,21 +20,21 @@ const CaseStudies = () => {
       title: t.caseStudies.tanSonNhatT3.title,
       subtitle: t.caseStudies.tanSonNhatT3.model,
       desc: t.caseStudies.tanSonNhatT3.desc,
-      image: t.caseStudies.tanSonNhatT3.image
+      image: "/assets/VNVAR assets/IMG/751600d38d61451e942d28bdbf4964e7.jpg"
     },
     {
       id: 'sun-group',
       title: t.caseStudies.sunGroup.title,
       subtitle: t.caseStudies.sunGroup.model,
       desc: t.caseStudies.sunGroup.desc,
-      image: t.caseStudies.sunGroup.image
+      image: "/assets/VNVAR assets/IMG/652136528_122161075808731210_5380463322729828341_n.jpg"
     },
     {
       id: 'toco-toco',
       title: t.caseStudies.tocoToco.title,
       subtitle: t.caseStudies.tocoToco.model,
       desc: t.caseStudies.tocoToco.desc,
-      image: t.caseStudies.tocoToco.image
+      image: "/assets/VNVAR assets/IMG/cebde3af-4656-49ed-a6e8-69848b2bbfb7.jpg"
     }
   ];
 
@@ -54,7 +54,7 @@ const CaseStudies = () => {
               {t.caseStudies.subtitle}
             </p>
           </div>
-          <button 
+          <button
             onClick={() => navigate('/projects')}
             className="bg-brand-600 text-white px-8 py-4 rounded-2xl font-black text-sm uppercase tracking-widest hover:bg-black transition-all shadow-xl shadow-brand-600/20 group flex items-center gap-2"
           >
@@ -64,7 +64,7 @@ const CaseStudies = () => {
 
         <div className="grid lg:grid-cols-3 gap-8">
           {projects.map((project, i) => (
-            <motion.div 
+            <motion.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -74,13 +74,13 @@ const CaseStudies = () => {
               className="group cursor-pointer bg-white rounded-[40px] overflow-hidden border border-brand-100 hover:shadow-[0_20px_50px_rgba(8,103,136,0.15)] transition-all duration-500"
             >
               <div className="relative aspect-[3/4] overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
+                <img
+                  src={project.image}
+                  alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[2s]"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-600 via-brand-600/20 to-transparent group-hover:opacity-90 transition-opacity" />
-                <div className="absolute top-6 left-6 text-[10px] font-black tracking-[0.2em] text-white/50 uppercase">Project #{i+1}</div>
+                <div className="absolute top-6 left-6 text-[10px] font-black tracking-[0.2em] text-white/50 uppercase">Project #{i + 1}</div>
                 <div className="absolute bottom-8 left-8 right-8">
                   <div className="text-white font-black text-2xl mb-2">{project.title}</div>
                   <div className="text-accent-400 text-xs font-black uppercase tracking-widest">{project.subtitle}</div>

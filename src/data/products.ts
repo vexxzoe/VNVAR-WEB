@@ -873,595 +873,66 @@ export const LED_PRODUCTS: Product[] = [
 
 export const LCD_PRODUCTS: Product[] = [
   {
-    id: 19,
-    slug: 'vnsign-g32la-man-hinh-lcd-32-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G32LA – Màn hình LCD 32 inch', en: 'VNSIGN G32LA – 32 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G32LA – Màn hình LCD 32 inch.png',
+    id: 101,
+    slug: 'man-hinh-check-var-billiard',
+    category: 'man-hinh-check-var',
+    subcategory: 'Màn hình Check VAR',
+    name: { vi: 'Màn hình Check VAR Billiard chuyên dụng', en: 'Professional VAR Billiard Check Screen' },
+    image: '/assets/VNVAR assets/Màn VAR BIDA/Thiết kế chưa có tên (3).png',
     description: {
-      vi: 'Màn hình quảng cáo treo tường siêu mỏng, viền tinh tế, hoạt động bền bỉ.',
-      en: 'Ultra-thin wall-mounted advertising screen, elegant bezel, durable operation.'
-    },
-    specs: { size: '32 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '32 inch', en: '32 inch' },
-      'Độ phân giải': { vi: '1920 x 1080 (Full HD)', en: '1920 x 1080 (Full HD)' },
-      'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Bộ nhớ trong': { vi: '16GB', en: '16GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '712 x 409 x 57 mm', en: '712 x 409 x 57 mm' },
-      'Trọng lượng': { vi: '10 kg', en: '10 kg' }
-    }
-  },
-  {
-    id: 20,
-    slug: 'vnsign-g32lb-man-hinh-lcd-32-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G32LB – Màn hình LCD 32 inch', en: 'VNSIGN G32LB – 32 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G32LB – Màn hình LCD 32 inch.png',
-    description: {
-      vi: 'Thiết kế hiện đại, độ phân giải Full HD, phù hợp cho thang máy và cửa hàng.',
-      en: 'Modern design, Full HD resolution, suitable for elevators and retail stores.'
-    },
-    specs: { size: '32 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '32 inch', en: '32 inch' },
-      'Độ phân giải': { vi: '1366 x 768', en: '1366 x 768' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1200:1', en: '1200:1' },
-      'Hệ điều hành': { vi: 'Android 12', en: 'Android 12' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm 2 loa công suất 10W mỗi loa', en: 'includes 2 speakers, 10W each' },
-      'Các cổng kết nối': { vi: 'Các cổng kết nối đa dạng như RJ45, 2 cổng USB, RS232, 2 cổng HDMI và cổng Audio In/Out', en: 'Diverse ports including RJ45, 2x USB, RS232, 2x HDMI, and Audio In/Out' },
-      'Kích thước máy': { vi: '719 x 412.2 x 69.7 mm', en: '719 x 412.2 x 69.7 mm' },
-      'Trọng lượng': { vi: '3.13 kg', en: '3.13 kg' }
-    }
-  },
-  {
-    id: 21,
-    slug: 'vnsign-g43la-man-hinh-lcd-43-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G43LA – Màn hình LCD 43 inch', en: 'VNSIGN G43LA – 43 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G43LA – Màn hình LCD 43 inch.png',
-    description: {
-      vi: 'Kích thước phổ biến cho các điểm bán lẻ, hiển thị màu sắc trung thực.',
-      en: 'Popular size for retail outlets, displaying realistic colors.'
-    },
-    specs: { size: '43 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '43 inch', en: '43 inch' },
-      'Độ phân giải': { vi: '1920 x 1080 (Full HD)', en: '1920 x 1080 (Full HD)' },
-      'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '954 x 543 x 57 mm', en: '954 x 543 x 57 mm' },
-      'Trọng lượng': { vi: '16 kg', en: '16 kg' }
-    }
-  },
-  {
-    id: 22,
-    slug: 'vnsign-g43lb-man-hinh-lcd-43-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G43LB – Màn hình LCD 43 inch', en: 'VNSIGN G43LB – 43 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G43LB – Màn hình LCD 43 inch.png',
-    description: {
-      vi: 'Hiệu năng cao, tiết kiệm điện năng, quản lý tập trung qua Cloud CMS.',
-      en: 'High performance, energy-saving, centralized management via Cloud CMS.'
-    },
-    specs: { size: '43 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '43 inch', en: '43 inch' },
-      'Độ phân giải': { vi: '1920 x 1080 (Full HD)', en: '1920 x 1080 (Full HD)' },
-      'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1200:1', en: '1200:1' },
-      'Hệ điều hành': { vi: 'Android 12', en: 'Android 12' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm 2 loa công suất 10W mỗi loa', en: 'includes 2 speakers, 10W each' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '954.5 x 555.9 x 71.6 mm', en: '954.5 x 555.9 x 71.6 mm' },
-      'Trọng lượng': { vi: '5.15 kg', en: '5.15 kg' }
-    }
-  },
-  {
-    id: 23,
-    slug: 'vnsign-g50la-man-hinh-lcd-50-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G50LA – Màn hình LCD 50 inch', en: 'VNSIGN G50LA – 50 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G50LA – Màn hình LCD 50 inch.png',
-    description: {
-      vi: 'Màn hình khổ trung bình, lý tưởng cho sảnh chờ và hành lang.',
-      en: 'Medium-sized screen, ideal for lobbies and hallways.'
-    },
-    specs: { size: '50 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '50 inch', en: '50 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '1110 x 632 x 58 mm', en: '1110 x 632 x 58 mm' },
-      'Trọng lượng': { vi: '19.5 kg', en: '19.5 kg' }
-    }
-  },
-  {
-    id: 24,
-    slug: 'vnsign-g55la-man-hinh-lcd-55-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G55LA – Màn hình LCD 55 inch', en: 'VNSIGN G55LA – 55 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G55LA – Màn hình LCD 55 inch.png',
-    description: {
-      vi: 'Độ sáng cao, thu hút ánh nhìn từ xa, hỗ trợ phát 4K mượt mà.',
-      en: 'High brightness, attracts attention from afar, supports smooth 4K playback.'
+      vi: 'Màn hình độ phân giải cao 4K, tần số quét 144Hz, tối ưu cho việc xem lại các tình huống VAR trong thể thao với độ trễ cực thấp.',
+      en: 'High-resolution 4K screen with 144Hz refresh rate, optimized for reviewing VAR situations in sports with ultra-low latency.'
     },
     specs: { size: '55 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
     details: {
-      'Kích thước': { vi: '55 inch', en: '55 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
+      'Độ phân giải': { vi: '4K Ultra HD (3840 x 2160)', en: '4K Ultra HD (3840 x 2160)' },
+      'Tần số quét': { vi: '144Hz', en: '144Hz' },
+      'Thời gian đáp ứng': { vi: '1ms (GtG)', en: '1ms (GtG)' },
       'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '1225 x 699 x 58 mm', en: '1225 x 699 x 58 mm' },
-      'Trọng lượng': { vi: '22 kg', en: '22 kg' }
+      'Tỷ lệ tương phản': { vi: '4000:1', en: '4000:1' },
+      'Hệ điều hành': { vi: 'Android TV 11', en: 'Android TV 11' },
+      'Kết nối': { vi: 'HDMI 2.1 x 3, DisplayPort 1.4 x 1, USB 3.0 x 2, LAN, Wifi 6', en: 'HDMI 2.1 x 3, DisplayPort 1.4 x 1, USB 3.0 x 2, LAN, Wifi 6' }
     }
   },
   {
-    id: 25,
-    slug: 'vnsign-g65la-man-hinh-lcd-65-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G65LA – Màn hình LCD 65 inch', en: 'VNSIGN G65LA – 65 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G65LA – Màn hình LCD 65 inch.png',
+    id: 103,
+    slug: 'man-hinh-check-var-pickleball',
+    category: 'man-hinh-check-var',
+    subcategory: 'Màn hình Check VAR',
+    name: { vi: 'Màn hình Check VAR Pickleball chuyên dụng', en: 'Professional VAR Pickleball Check Screen' },
+    image: '/assets/VNVAR assets/Màn VAR Pickleball/ChatGPT Image Apr 24, 2026, 09_36_40 AM.png',
     description: {
-      vi: 'Kích thước chuẩn, hiển thị 4K sắc nét, thiết kế viền mỏng tối ưu không gian.',
-      en: 'Standard size, sharp 4K display, thin bezel design for space optimization.'
+      vi: 'Màn hình độ phân giải cao 4K, tần số quét 144Hz, tối ưu cho việc xem lại các tình huống VAR trong thể thao với độ trễ cực thấp.',
+      en: 'High-resolution 4K screen with 144Hz refresh rate, optimized for reviewing VAR situations in sports with ultra-low latency.'
     },
-    specs: { size: '65 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
+    specs: { size: '55 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
     details: {
-      'Kích thước': { vi: '65 inch', en: '65 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
+      'Độ phân giải': { vi: '4K Ultra HD (3840 x 2160)', en: '4K Ultra HD (3840 x 2160)' },
+      'Tần số quét': { vi: '144Hz', en: '144Hz' },
+      'Thời gian đáp ứng': { vi: '1ms (GtG)', en: '1ms (GtG)' },
       'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' }
+      'Tỷ lệ tương phản': { vi: '4000:1', en: '4000:1' },
+      'Hệ điều hành': { vi: 'Android TV 11', en: 'Android TV 11' },
+      'Kết nối': { vi: 'HDMI 2.1 x 3, DisplayPort 1.4 x 1, USB 3.0 x 2, LAN, Wifi 6', en: 'HDMI 2.1 x 3, DisplayPort 1.4 x 1, USB 3.0 x 2, LAN, Wifi 6' }
     }
   },
   {
-    id: 26,
-    slug: 'vnsign-g75la-man-hinh-lcd-75-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G75LA – Màn hình LCD 75 inch', en: 'VNSIGN G75LA – 75 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G75LA – Màn hình LCD 75 inch.png',
+    id: 102,
+    slug: 'khung-che-man-hinh-check-var',
+    category: 'khung-che',
+    subcategory: 'Phụ kiện VAR',
+    name: { vi: 'Khung che màn hình Check VAR', en: 'VAR Screen Protection Frame' },
+    image: '/assets/VNVAR assets/Màn VAR BIDA/z7758207340755_0ec7ee9c253280c0536cc2f19988cbd4.jpg',
     description: {
-      vi: 'Diện tích hiển thị lớn, độ sáng vượt trội, công nghệ chống chói cho mọi góc nhìn.',
-      en: 'Large display area, superior brightness, anti-glare technology for all viewing angles.'
+      vi: 'Khung bảo vệ chuyên dụng thiết kế theo yêu cầu, chống chói từ ánh đèn sân vận động và va đập vật lý, đảm bảo an toàn cho thiết bị.',
+      en: 'Custom-designed protection frame, anti-glare from stadium lights and physical impact-resistant, ensuring equipment safety.'
     },
-    specs: { size: '75 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
+    specs: { size: 'Tùy chỉnh', brightness: 'N/A', warranty: '12 Tháng' },
     details: {
-      'Kích thước': { vi: '75 inch', en: '75 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '1668.2 x 948 x 66.6 mm', en: '1668.2 x 948 x 66.6 mm' }
-    }
-  },
-  {
-    id: 27,
-    slug: 'vnsign-g86la-man-hinh-lcd-86-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN G86LA – Màn hình LCD 86 inch', en: 'VNSIGN G86LA – 86 inch LCD Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN G86LA – Màn hình LCD 86 inch.png',
-    description: {
-      vi: 'Tầm nhìn không giới hạn, độ phân giải 4K siêu nét, trình chiếu chuyên nghiệp quy mô lớn.',
-      en: 'Limitless vision, ultra-sharp 4K resolution, large-scale professional presentation.'
-    },
-    specs: { size: '86 inch', brightness: '500 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '86 inch', en: '86 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '500 cd/m²', en: '500 cd/m²' },
-      'Tỷ lệ tương phản': { vi: '1100:1 và hiển thị 16.7 triệu màu', en: '1100:1 and 16.7 million colors display' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Hệ thống âm thanh': { vi: 'bao gồm loa 8Ω, công suất 5W x 2', en: 'includes 8Ω speakers, 5W x 2 output' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 và 3.5mm audio output', en: 'RJ45 x 1, USB x 2, TF card x 1, HDMI input x 1, RS232 and 3.5mm audio output' },
-      'Kích thước máy': { vi: '1919.4 x 1090.1 x 64.6 mm', en: '1919.4 x 1090.1 x 64.6 mm' }
-    }
-  },
-  {
-    id: 28,
-    slug: 'vnsign-sky22sxen-man-hinh-quang-cao-lcd-22-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY22SXEN – Màn hình Quảng Cáo LCD 22 inch', en: 'VNSIGN SKY22SXEN – 22 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY22SXEN – Màn hình LCD quảng cáo chuyên dụng 22 inch.png',
-    description: {
-      vi: 'Màn hình quảng cáo treo tường siêu mỏng, viền tinh tế, hoạt động bền bỉ.',
-      en: 'Ultra-thin wall-mounted advertising screen, elegant bezel, durable operation.'
-    },
-    specs: { size: '22 inch', brightness: '250 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '22 inch', en: '22 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '250 cd/m²', en: '250 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '508.2 x 305 x 61.6 mm', en: '508.2 x 305 x 61.6 mm' }
-    }
-  },
-  {
-    id: 29,
-    slug: 'vnsign-sky32sxen-man-hinh-quang-cao-lcd-32-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY32SXEN – Màn hình Quảng Cáo LCD 32 inch', en: 'VNSIGN SKY32SXEN – 32 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY22SXEN – Màn hình LCD quảng cáo chuyên dụng 22 inch.png',
-    description: {
-      vi: 'Nhỏ gọn tinh tế, hiển thị sắc nét, giải pháp hoàn hảo cho kệ hàng và menu điện tử.',
-      en: 'Compact and elegant, sharp display, perfect solution for shelves and digital menus.'
-    },
-    specs: { size: '32 inch', brightness: '300 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '32 inch', en: '32 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '300 cd/m²', en: '300 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '721.4 x 416.3 x 69.8 mm', en: '721.4 x 416.3 x 69.8 mm' }
-    }
-  },
-  {
-    id: 30,
-    slug: 'vnsign-sky43sxen-man-hinh-quang-cao-lcd-43-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY43SXEN – Màn hình Quảng Cáo LCD 43 inch', en: 'VNSIGN SKY43SXEN – 43 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY22SXEN – Màn hình LCD quảng cáo chuyên dụng 22 inch.png',
-    description: {
-      vi: 'Kích thước tiêu chuẩn, thiết kế thanh lịch, tối ưu hiệu quả quảng cáo tại không gian hẹp.',
-      en: 'Standard size, elegant design, optimized advertising effectiveness in narrow spaces.'
-    },
-    specs: { size: '43 inch', brightness: '300 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '43 inch', en: '43 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '300 cd/m²', en: '300 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '964.2 x 553.7 x 65.2 mm', en: '964.2 x 553.7 x 65.2 mm' }
-    }
-  },
-  {
-    id: 31,
-    slug: 'vnsign-sky49sxen-man-hinh-quang-cao-lcd-49-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY49SXEN – Màn hình Quảng Cáo LCD 49 inch', en: 'VNSIGN SKY49SXEN – 49 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY22SXEN – Màn hình LCD quảng cáo chuyên dụng 22 inch.png',
-    description: {
-      vi: 'Tỉ lệ hiển thị vàng, độ sáng cao, thu hút khách hàng ngay từ cái nhìn đầu tiên.',
-      en: 'Golden aspect ratio, high brightness, attracting customers at first sight.'
-    },
-    specs: { size: '49 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '49 inch', en: '49 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '1118.8 x 640.2 x 65.2 mm', en: '1118.8 x 640.2 x 65.2 mm' }
-    }
-  },
-  {
-    id: 32,
-    slug: 'vnsign-sky55sxen-man-hinh-quang-cao-lcd-55-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY55SXEN – Màn hình Quảng Cáo LCD 55 inch', en: 'VNSIGN SKY55SXEN – 55 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY55SXEN – Màn hình LCD quảng cáo chuyên dụng 55 inch.png',
-    description: {
-      vi: 'Kích thước quốc dân, hình ảnh 4K sống động, hoạt động bền bỉ trong mọi môi trường.',
-      en: 'Standard large size, vivid 4K images, durable operation in all environments.'
-    },
-    specs: { size: '55 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '55 inch', en: '55 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '1236.6 x 708.7 x 65.1 mm', en: '1236.6 x 708.7 x 65.1 mm' }
-    }
-  },
-  {
-    id: 33,
-    slug: 'vnsign-sky65sxen-man-hinh-quang-cao-lcd-65-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY65SXEN – Màn hình Quảng Cáo LCD 65 inch', en: 'VNSIGN SKY65SXEN – 65 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY55SXEN – Màn hình LCD quảng cáo chuyên dụng 55 inch.png',
-    description: {
-      vi: 'Kích thước chuẩn, hiển thị 4K sắc nét, thiết kế viền mỏng tối ưu không gian.',
-      en: 'Standard size, sharp 4K display, thin bezel design for space optimization.'
-    },
-    specs: { size: '65 inch', brightness: '300 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '65 inch', en: '65 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '300 cd/m²', en: '300 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '1482 x 857 x 62.7 mm', en: '1482 x 857 x 62.7 mm' }
-    }
-  },
-  {
-    id: 33,
-    slug: 'vnsign-sky75sxen-man-hinh-quang-cao-lcd-75-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY75SXEN – Màn hình Quảng Cáo LCD 75 inch', en: 'VNSIGN SKY75SXEN – 75 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY55SXEN – Màn hình LCD quảng cáo chuyên dụng 55 inch.png',
-    description: {
-      vi: 'Trải nghiệm thị giác ấn tượng, vận hành thông minh, hỗ trợ đa dạng định dạng 4K.',
-      en: 'Impressive visual experience, smart operation, supports various 4K formats.'
-    },
-    specs: { size: '75 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '75 inch', en: '75 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '1706.8 x 994.5 x 119.5 mm', en: '1706.8 x 994.5 x 119.5 mm' }
-    }
-  },
-  {
-    id: 34,
-    slug: 'vnsign-sky85sxen-man-hinh-quang-cao-lcd-85-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY85SXEN – Màn hình Quảng Cáo LCD 85 inch', en: 'VNSIGN SKY85SXEN – 85 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY55SXEN – Màn hình LCD quảng cáo chuyên dụng 55 inch.png',
-    description: {
-      vi: 'Tầm nhìn không giới hạn, độ phân giải 4K siêu nét, trình chiếu chuyên nghiệp quy mô lớn.',
-      en: 'Limitless vision, ultra-sharp 4K resolution, large-scale professional presentation.'
-    },
-    specs: { size: '85 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '85 inch', en: '85 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '1952.6 x 1142 x 118.5 mm', en: '1952.6 x 1142 x 118.5 mm' }
-    }
-  },
-  {
-    id: 33,
-    slug: 'vnsign-sky98sxen-man-hinh-quang-cao-lcd-98-inch',
-    category: 'man-treo-tuong',
-    subcategory: 'Màn treo tường',
-    name: { vi: 'VNSIGN SKY98SXEN – Màn hình Quảng Cáo LCD 98 inch', en: 'VNSIGN SKY98SXEN – 98 inch LCD Advertising Screen' },
-    image: '/assets/products/LCD/man-treo-tuong/VNSIGN SKY55SXEN – Màn hình LCD quảng cáo chuyên dụng 55 inch.png',
-    description: {
-      vi: 'Đẳng cấp trình chiếu, kích cỡ cực đại, tạo hiệu ứng thị giác choáng ngợp và sang trọng.',
-      en: 'Premium presentation, maximum size, creating an overwhelming and luxurious visual effect.'
-    },
-    specs: { size: '98 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '98 inch', en: '98 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' },
-      'Kích thước máy': { vi: '2219.4 x 1285 x 128.8 mm', en: '2219.4 x 1285 x 128.8 mm' }
-    }
-  },
-  {
-    id: 34,
-    slug: 'vnsign-sky43up-standee-dien-tu-43-inch',
-    category: 'man-hinh-standee',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY43UP – Standee Điện Tử 43 inch', en: 'VNSIGN SKY43UP – 43 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-standee/VNSIGN SKY43UP – Màn hình LCD STANDEE quảng cáo chuyên dụng 43 inch.png',
-    description: {
-      vi: 'Kiểu dáng thanh mảnh, chân đế chắc chắn, giải pháp hiển thị tinh tế cho sảnh đón khách.',
-      en: 'Slim design, sturdy base, elegant display solution for reception halls.'
-    },
-    specs: { size: '43 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '43 inch', en: '43 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
-    }
-  },
-  {
-    id: 35,
-    slug: 'vnsign-sky49up-standee-dien-tu-49-inch',
-    category: 'man-hinh-standee',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY49UP – Standee Điện Tử 49 inch', en: 'VNSIGN SKY49UP – 49 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-standee/VNSIGN SKY43UP – Màn hình LCD STANDEE quảng cáo chuyên dụng 43 inch.png',
-    description: {
-      vi: 'Kích thước cân đối, độ sáng cao, tối ưu khả năng nhận diện thương hiệu tại điểm bán.',
-      en: 'Balanced size, high brightness, optimized brand recognition at point of sale.'
-    },
-    specs: { size: '49 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '49 inch', en: '49 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
-    }
-  },
-  {
-    id: 36,
-    slug: 'vnsign-sky55up-standee-dien-tu-55-inch',
-    category: 'man-hinh-standee',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY55UP – Standee Điện Tử 55 inch', en: 'VNSIGN SKY55UP – 55 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-standee/VNSIGN SKY43UP – Màn hình LCD STANDEE quảng cáo chuyên dụng 43 inch.png',
-    description: {
-      vi: 'Hiển thị sống động, thiết kế kính cường lực sang trọng, thu hút mọi ánh nhìn từ xa.',
-      en: 'Vivid display, luxurious tempered glass design, attracting all eyes from afar.'
-    },
-    specs: { size: '55 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '55 inch', en: '55 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
-    }
-  },
-  {
-    id: 37,
-    slug: 'vnsign-sky65up-standee-dien-tu-65-inch',
-    category: 'man-hinh-standee',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY65UP – Standee Điện Tử 65 inch', en: 'VNSIGN SKY65UP – 65 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-standee/VNSIGN SKY43UP – Màn hình LCD STANDEE quảng cáo chuyên dụng 43 inch.png',
-    description: {
-      vi: 'Khung hình lớn ấn tượng, mặt kính tràn viền, nâng tầm đẳng cấp không gian trưng bày.',
-      en: 'Impressive large frame, edge-to-edge glass, elevating the class of display spaces.'
-    },
-    specs: { size: '65 inch', brightness: '300 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '65 inch', en: '65 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '300 cd/m²', en: '300 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
-    }
-  },
-  {
-    id: 38,
-    slug: 'vnsign-sky75up-standee-dien-tu-75-inch',
-    category: 'man-hinh-standee',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY75UP – Standee Điện Tử 75 inch', en: 'VNSIGN SKY75UP – 75 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-standee/VNSIGN SKY43UP – Màn hình LCD STANDEE quảng cáo chuyên dụng 43 inch.png',
-    description: {
-      vi: 'Diện tích hiển thị cực đại, xử lý hình ảnh 4K mượt mà, tạo dấu ấn thị giác mạnh mẽ.',
-      en: 'Maximum display area, smooth 4K image processing, creating a strong visual impression.'
-    },
-    specs: { size: '75 inch', brightness: '400 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '75 inch', en: '75 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '400 cd/m²', en: '400 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
-    }
-  },
-  {
-    id: 39,
-    slug: 'vnsign-sky85up-standee-dien-tu-85-inch',
-    category: 'man-hinh-standee',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY85UP – Standee Điện Tử 85 inch', en: 'VNSIGN SKY85UP – 85 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-standee/VNSIGN SKY43UP – Màn hình LCD STANDEE quảng cáo chuyên dụng 43 inch.png',
-    description: {
-      vi: 'Đẳng cấp trình chiếu, thay thế hoàn hảo cho Standee truyền thống, khẳng định vị thế thương hiệu.',
-      en: 'Premium presentation, perfect replacement for traditional standees, asserting brand position.'
-    },
-    specs: { size: '85 inch', brightness: '400 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '85 inch', en: '85 inch' },
-      'Độ phân giải': { vi: '3840 x 2160', en: '3840 x 2160' },
-      'Độ sáng': { vi: '400 cd/m²', en: '400 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
-    }
-  },
-  {
-    id: 40,
-    slug: 'vnsign-sky43up03-standee-dien-tu-43-inch',
-    category: 'man-hinh-tuong-tac',
-    subcategory: 'Màn hình standee',
-    name: { vi: 'VNSIGN SKY43UP03 – Standee Điện Tử 43 inch', en: 'VNSIGN SKY43UP03 – 43 inch Electronic Standee' },
-    image: '/assets/products/LCD/man-hinh-tuong-tac/snow-forest.png',
-    description: {
-      vi: 'Giải pháp thông minh cho trạm tra cứu thông tin (Kiosk), sơ đồ chỉ dẫn hoặc đặt tại khu vực đăng ký dịch vụ tự động.',
-      en: 'Smart solution for information kiosks, directional maps, or automated service registration areas.'
-    },
-    specs: { size: '43 inch', brightness: '350 cd/m²', warranty: '24 Tháng' },
-    details: {
-      'Kích thước': { vi: '43 inch', en: '43 inch' },
-      'Độ phân giải': { vi: '1920 x 1080', en: '1920 x 1080' },
-      'Độ sáng': { vi: '350 cd/m²', en: '350 cd/m²' },
-      'Hệ điều hành': { vi: 'Android 9.0', en: 'Android 9.0' },
-      'CPU': { vi: '4 nhân', en: 'Quad-core' },
-      'RAM': { vi: '2GB', en: '2GB' },
-      'Các cổng kết nối': { vi: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1', en: 'RJ45 x 1, USB x 2, TF x 1, HDMI x 1' }
+      'Chất liệu': { vi: 'Hợp kim nhôm cao cấp sơn tĩnh điện', en: 'Premium aluminum alloy with powder coating' },
+      'Tính năng': { vi: 'Chống chói, chống va đập, tản nhiệt tốt', en: 'Anti-glare, impact-resistant, good heat dissipation' },
+      'Thiết kế': { vi: 'Modular dễ dàng lắp đặt và tháo dỡ', en: 'Modular for easy installation and disassembly' },
+      'Màu sắc': { vi: 'Đen nhám (hoặc tùy chỉnh theo yêu cầu)', en: 'Matte black (or custom upon request)' }
     }
   },
 ];

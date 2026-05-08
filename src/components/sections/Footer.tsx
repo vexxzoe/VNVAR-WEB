@@ -1,8 +1,8 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { Link } from 'react-router-dom';
-import { 
-  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play, 
-  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings, 
+import {
+  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play,
+  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings,
   BarChart3, ChevronDown, FileText, Youtube, Award, Users, Rocket, HeartHandshake
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -24,7 +24,7 @@ const Footer = () => {
       {/* Background ambient */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-600/10 rounded-full blur-[150px] pointer-events-none -mr-64 -mt-64" />
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-accent-400/5 rounded-full blur-[100px] pointer-events-none" />
-      
+
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 pt-20 pb-10 relative z-10">
         {/* CTA Banner inside footer */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-16 p-8 rounded-2xl border border-white/8 bg-white/3">
@@ -33,7 +33,7 @@ const Footer = () => {
             <h3 className="text-white text-xl font-black">{t.footer.cta.title}</h3>
           </div>
           <button
-            onClick={() => openContactModal('Giải pháp VNSIGN')}
+            onClick={() => openContactModal(t.footer.cta.title)}
             className="shrink-0 bg-accent-400 text-brand-950 px-8 py-3 rounded-full font-black text-sm uppercase tracking-widest hover:bg-accent-500 hover:scale-105 transition-all shadow-lg shadow-accent-400/20 active:scale-95 whitespace-nowrap cursor-pointer"
           >
             {t.footer.cta.button} →
@@ -43,13 +43,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-12 gap-12 mb-16">
           {/* Brand column */}
           <div className="md:col-span-5">
-            <Logo variant="image" logoUrl="/assets/logos/vnsign-white.png" className="mb-8" />
+            <Logo variant="image" logoUrl="/assets/logos/vnvar-white.png" className="mb-8" />
             <p className="text-white/40 max-w-sm leading-relaxed mb-8 text-sm font-medium">
               {t.footer.desc}
             </p>
             <div className="flex gap-3">
               {[
-                { label: 'FB', href: 'https://www.facebook.com/profile.php?id=61563641611424' },
+                { label: 'FB', href: 'https://www.facebook.com/vndc.vnvar?locale=vi_VN' },
                 { label: 'YT', href: 'https://www.youtube.com/@vndc.technology' },
                 { label: 'TK', href: 'https://www.tiktok.com/@vndctech' },
               ].map(s => (
@@ -65,7 +65,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          
+
           {/* Company info */}
           <div className="md:col-span-4">
             <h4 className="font-black text-white text-xs uppercase tracking-[0.18em] mb-6">{t.footer.company}</h4>
@@ -76,17 +76,17 @@ const Footer = () => {
               <p className="leading-relaxed">{t.footer.companyInfo.address3}</p>
               <div className="pt-4 space-y-2 border-t border-white/8">
                 <a href="tel:0888998181" className="flex items-center gap-2 text-accent-400 font-black text-base hover:text-accent-500 transition-colors">
-                  <span className="text-[10px] text-white/30 font-bold uppercase tracking-widest w-14">Hotline</span>
+                  <span className="text-[10px] text-white/30 font-bold uppercase tracking-widest w-14">{t.footer.hotline}</span>
                   0888 998 181
                 </a>
                 <a href="mailto:congnt@vndc.vn" className="flex items-center gap-2 text-white/40 hover:text-white transition-colors text-sm">
-                  <span className="text-[10px] font-bold uppercase tracking-widest w-14">Email</span>
+                  <span className="text-[10px] font-bold uppercase tracking-widest w-14">{t.footer.email}</span>
                   congnt@vndc.vn
                 </a>
               </div>
             </div>
           </div>
-          
+
           {/* Quick links */}
           <div className="md:col-span-3">
             <h4 className="font-black text-white text-xs uppercase tracking-[0.18em] mb-6">{t.footer.quickLinks}</h4>
@@ -99,8 +99,8 @@ const Footer = () => {
                 { label: t.nav.contact, href: '/contact' },
               ].map((link, i) => (
                 <li key={i}>
-                  <Link 
-                    to={link.href} 
+                  <Link
+                    to={link.href}
                     className="hover:text-accent-400 transition-colors flex items-center gap-2 group"
                     onClick={(e) => {
                       if (link.href.startsWith('#')) {
@@ -119,16 +119,16 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/8 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-white/20 text-[11px] font-medium">
-            © 2024 VNSIGN — Member of VNDC. All rights reserved.
+            © 2024 VNVAR — Member of VNDC. All rights reserved.
           </div>
           <div className="flex gap-6 text-white/20 text-[11px] font-medium">
-            <a href="#" className="hover:text-white/50 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-white/50 transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-white/50 transition-colors">Cookie Policy</a>
+            <a href="#" className="hover:text-white/50 transition-colors">{t.footer.privacy}</a>
+            <a href="#" className="hover:text-white/50 transition-colors">{t.footer.terms}</a>
+            <a href="#" className="hover:text-white/50 transition-colors">{t.footer.cookie}</a>
           </div>
         </div>
       </div>

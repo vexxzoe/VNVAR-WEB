@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
-import { 
-  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play, 
-  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings, 
+import {
+  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play,
+  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings,
   BarChart3, ChevronDown, FileText, Youtube, Award, Users, Rocket, HeartHandshake
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -30,14 +30,14 @@ const Hero = () => {
         className="absolute inset-0 w-full h-full object-cover z-0"
         style={{ objectPosition: 'center center' }}
       >
-        <source src="/assets/videos/vnsign-preview.mp4" type="video/mp4" />
+        <source src="/assets/VNVAR assets/VIDEO/snaptik.vn_7563518702239436039.mp4" type="video/mp4" />
       </video>
 
-      <div 
-        className="absolute inset-0 z-10" 
-        style={{ 
-          background: 'linear-gradient(to right, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.80) 25%, rgba(0,0,0,0.65) 45%, rgba(0,0,0,0.35) 70%, rgba(0,0,0,0.15) 100%)' 
-        }} 
+      <div
+        className="absolute inset-0 z-10"
+        style={{
+          background: 'linear-gradient(to right, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.80) 25%, rgba(0,0,0,0.65) 45%, rgba(0,0,0,0.35) 70%, rgba(0,0,0,0.15) 100%)'
+        }}
       />
 
       {/* ── Subtle bottom gradient fade ── */}
@@ -47,90 +47,90 @@ const Hero = () => {
       <div className="relative z-20 w-full px-6 md:px-12 lg:px-24 pt-32 pb-24">
         <div className="max-w-7xl mx-auto w-full flex flex-col items-start">
 
-        {/* Badge */}
-        <motion.div
-          initial={{ opacity: 0, y: -16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 mb-8"
-        >
-          <Logo showText={false} logoUrl="/assets/logos/vnsign-white.png" iconClassName="h-6" />
-          <div className="h-5 w-px bg-white/30" />
-          <span className="text-white/70 text-xs font-semibold tracking-[0.2em] uppercase">{t.hero.badge}</span>
-        </motion.div>
-
-        {/* Main heading */}
-        <motion.h1
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.65, delay: 0.1 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.08] mb-6 max-w-4xl"
-          style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}
-        >
-          <span className="text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.4)]">
-            {t.hero.title}
-          </span>
-          <br />
-          <span
-            style={{
-              background: 'linear-gradient(90deg, #ffc107 0%, #ffe066 50%, #ffc107 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-              filter: 'drop-shadow(0 2px 12px rgba(255,193,7,0.35))',
-            }}
+          {/* Badge */}
+          <motion.div
+            initial={{ opacity: 0, y: -16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="inline-flex items-center gap-2 mb-8"
           >
-            {t.hero.titleHighlight}
-          </span>
-        </motion.h1>
+            <Logo showText={false} logoUrl="/assets/logos/vnvar-white.png" iconClassName="h-6" />
+            <div className="h-5 w-px bg-white/30" />
+            <span className="text-white/70 text-xs font-semibold tracking-[0.2em] uppercase">{t.hero.badge}</span>
+          </motion.div>
 
-        {/* Sub-description */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.22 }}
-          className="text-lg md:text-xl text-white/80 mb-10 max-w-xl leading-relaxed font-medium"
-          style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}
-        >
-          {t.hero.desc}
-        </motion.p>
-
-        {/* CTA Buttons */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.55, delay: 0.34 }}
-          className="flex flex-col sm:flex-row gap-4 mb-14"
-        >
-          <a
-            href="#features"
-            className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white px-8 py-3.5 rounded-full text-base font-bold hover:bg-white/10 hover:border-white transition-all active:scale-95 backdrop-blur-sm"
+          {/* Main heading */}
+          <motion.h1
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.65, delay: 0.1 }}
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.08] mb-6 max-w-4xl"
+            style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}
           >
-            <Play className="w-4 h-4" />
-            {t.hero.ctaDemo}
-          </a>
-          <button
-            onClick={() => openContactModal('Giải pháp VNSIGN')}
-            className="inline-flex items-center justify-center gap-2 bg-accent-400 text-brand-950 px-8 py-3.5 rounded-full text-base font-black hover:bg-accent-500 hover:scale-105 transition-all shadow-xl shadow-accent-400/25 active:scale-95 cursor-pointer"
-          >
-            {t.hero.ctaQuote} →
-          </button>
-        </motion.div>
+            <span className="text-white drop-shadow-[0_2px_16px_rgba(0,0,0,0.4)]">
+              {t.hero.title}
+            </span>
+            <br />
+            <span
+              style={{
+                background: 'linear-gradient(90deg, #ffc107 0%, #ffe066 50%, #ffc107 100%)',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                backgroundClip: 'text',
+                filter: 'drop-shadow(0 2px 12px rgba(255,193,7,0.35))',
+              }}
+            >
+              {t.hero.titleHighlight}
+            </span>
+          </motion.h1>
 
-        {/* Tagline pills */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.6, delay: 0.46 }}
-          className="flex flex-wrap gap-4"
-        >
-          {[t.hero.tagline1, t.hero.tagline2, t.hero.tagline3, t.hero.tagline4].map((tag, i) => (
-            <div key={i} className="flex items-center gap-2 text-white/75 text-sm font-semibold">
-              <div className="w-1.5 h-1.5 rounded-full bg-accent-400 shrink-0" />
-              {tag}
-            </div>
-          ))}
-        </motion.div>
+          {/* Sub-description */}
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.22 }}
+            className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl leading-relaxed font-medium"
+            style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}
+          >
+            {t.hero.desc}
+          </motion.p>
+
+          {/* CTA Buttons */}
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.55, delay: 0.34 }}
+            className="flex flex-col sm:flex-row gap-4 mb-14"
+          >
+            <a
+              href="#features"
+              className="inline-flex items-center justify-center gap-2 border-2 border-white/70 text-white px-8 py-3.5 rounded-full text-base font-bold hover:bg-white/10 hover:border-white transition-all active:scale-95 backdrop-blur-sm"
+            >
+              <Play className="w-4 h-4" />
+              {t.hero.ctaDemo}
+            </a>
+            <button
+              onClick={() => openContactModal(t.hero.ctaStart)}
+              className="inline-flex items-center justify-center gap-2 bg-accent-400 text-brand-950 px-8 py-3.5 rounded-full text-base font-black hover:bg-accent-500 hover:scale-105 transition-all shadow-xl shadow-accent-400/25 active:scale-95 cursor-pointer"
+            >
+              {t.hero.ctaStart}
+            </button>
+          </motion.div>
+
+          {/* Tagline pills */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.46 }}
+            className="flex flex-wrap gap-4"
+          >
+            {t.hero.tags.map((tag: string, i: number) => (
+              <div key={i} className="flex items-center gap-2 text-white/75 text-sm font-semibold">
+                <div className="w-1.5 h-1.5 rounded-full bg-accent-400 shrink-0" />
+                {tag}
+              </div>
+            ))}
+          </motion.div>
         </div>
       </div>
 

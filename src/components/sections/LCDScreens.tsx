@@ -30,7 +30,7 @@ const LCDScreens = () => {
           <div className="lg:col-span-7 grid grid-cols-2 gap-4">
             <div className="relative rounded-[32px] overflow-hidden shadow-2xl group aspect-[4/5]">
               <img
-                src="/assets/case-studies/CASE-KHAC/z7504464998053_c0c1b9a1ad9fb9cb3a4bb4a60f6a055c.jpg"
+                src="/assets/VNVAR assets/IMG/cebde3af-4656-49ed-a6e8-69848b2bbfb7.jpg"
                 alt="LCD Wall"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5s]"
               />
@@ -41,7 +41,7 @@ const LCDScreens = () => {
             <div className="space-y-4 pt-8">
               <div className="relative rounded-[32px] overflow-hidden shadow-2xl group aspect-[4/5]">
                 <img
-                  src="/assets/case-studies/CASE-KHAC/z7507825042643_9c2b660644b896e963a813098cfa7dd9.jpg"
+                  src="/assets/VNVAR assets/IMG/p3-768x1024.jpg"
                   alt="LCD Wall"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[5s]"
                 />
@@ -57,8 +57,7 @@ const LCDScreens = () => {
             <div>
               <h3 className="text-3xl font-black text-brand-950 mb-6 uppercase tracking-tight">{t.lcd.featuresTitle}</h3>
               <p className="text-brand-500 mb-8 leading-relaxed">
-                Hệ thống màn hình LCD của VNSIGN được tối ưu cho việc hiển thị nội dung quảng cáo sắc nét,
-                hoạt động bền bỉ trong môi trường trung tâm thương mại và cửa hàng bán lẻ.
+                {t.lcd.description}
               </p>
             </div>
             <ul className="space-y-4 mb-8">

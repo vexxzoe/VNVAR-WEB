@@ -40,10 +40,10 @@ const Contact = () => {
             className="lg:sticky lg:top-32"
           >
             <div className="inline-block px-4 py-1 bg-accent-400/10 border border-accent-400/20 rounded-full text-accent-400 text-xs font-black uppercase tracking-widest mb-6">
-              {t.contact.title}
+              {t.contact.badge}
             </div>
             <h2 className="text-5xl md:text-7xl font-black text-white mb-8 leading-[1.1] tracking-tighter">
-              {renderHighlightedText(t.contact.ctaTitle)}
+              {renderHighlightedText(t.contact.title)}
             </h2>
             <p className="text-white/60 text-xl mb-12 font-medium leading-relaxed max-w-lg lg:text-left text-center mx-auto lg:mx-0">
               {t.contact.subtitle}
@@ -54,7 +54,7 @@ const Contact = () => {
                 <div className="w-12 h-12 bg-accent-400 rounded-2xl flex items-center justify-center mb-6 shadow-lg shadow-accent-400/20 group-hover:scale-110 transition-transform">
                   <Smartphone className="w-6 h-6 text-brand-950" />
                 </div>
-                <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-2">{t.contact.hotline}</div>
+                <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-2">{t.contact.hotlineLabel}</div>
                 <div className="text-white text-xl font-bold">0888 998 181</div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 <div className="w-12 h-12 bg-white/10 rounded-2xl flex items-center justify-center mb-6 border border-white/20 group-hover:scale-110 transition-transform">
                   <Globe className="w-6 h-6 text-accent-400" />
                 </div>
-                <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-2">{t.contact.email}</div>
+                <div className="text-white/40 text-[10px] font-black uppercase tracking-widest mb-2">{t.contact.emailLabel}</div>
                 <div className="text-white text-xl font-bold">congnt@vndc.vn</div>
               </div>
             </div>

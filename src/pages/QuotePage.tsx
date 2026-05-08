@@ -16,7 +16,7 @@ const QuotePage: React.FC = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    document.title = `${title} | VNSIGN`;
+    document.title = `${title} | VNVAR`;
   }, [title]);
 
   return (

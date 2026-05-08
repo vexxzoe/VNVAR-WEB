@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
-import { 
-  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play, 
-  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings, 
+import {
+  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play,
+  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings,
   BarChart3, ChevronDown, FileText, Youtube, Award, Users, Rocket, HeartHandshake
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -14,7 +14,7 @@ import { LazyVideo } from '../LazyVideo';
 const CTA = () => {
   const { t } = useLanguage();
   const { openContactModal } = useContactModal();
-  
+
   return (
     <section className="relative overflow-hidden" style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}>
       {/* Full-width video bg */}
@@ -22,7 +22,7 @@ const CTA = () => {
         autoPlay loop muted playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="/assets/videos/VID_20260310_094906_HDR10PLUS.mp4" type="video/mp4" />
+        <source src="/assets/VNVAR assets/VIDEO/1ISJBD1VR_8Q7R48.mp4" type="video/mp4" />
       </video>
       <div className="absolute inset-0 z-10" style={{ background: 'linear-gradient(135deg, rgba(2,34,46,0.90) 0%, rgba(8,103,136,0.80) 100%)' }} />
 
@@ -45,14 +45,14 @@ const CTA = () => {
             {t.cta.subtitle}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => openContactModal('Dùng thử VNSIGN')}
+            <button
+              onClick={() => openContactModal(t.cta.primary)}
               className="inline-flex items-center justify-center gap-2 bg-accent-400 text-brand-950 px-10 py-4 rounded-full text-base font-black hover:bg-white hover:scale-105 transition-all shadow-2xl shadow-accent-400/25 active:scale-95 cursor-pointer"
             >
               {t.cta.primary} <ChevronRight className="w-5 h-5" />
             </button>
-            <button 
-              onClick={() => openContactModal('Tư vấn Giải pháp VNSIGN')}
+            <button
+              onClick={() => openContactModal(t.cta.secondary)}
               className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white px-10 py-4 rounded-full text-base font-bold hover:bg-white/10 hover:border-white transition-all backdrop-blur-sm active:scale-95 cursor-pointer"
             >
               {t.cta.secondary}

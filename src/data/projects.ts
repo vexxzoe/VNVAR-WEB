@@ -19,211 +19,211 @@ export interface Project {
 export const PROJECTS_DATA: Project[] = [
   {
     id: 'sun-group',
-    tag: { vi: 'Doanh nghiệp', en: 'Enterprise' },
+    tag: { vi: 'Sân thể thao', en: 'Sports Venue' },
     tagColor: 'accent',
-    title: { 
-      vi: 'AEON BETA Vincom Royal Island', 
-      en: 'AEON BETA Vincom Royal Island' 
+    title: {
+      vi: 'Sân Pickleball Ven Đê 4',
+      en: 'Ven De 4 Pickleball Court'
     },
-    model: { 
-      vi: 'Enterprise · Giải trí', 
-      en: 'Enterprise · Entertainment' 
+    model: {
+      vi: 'Pickleball · VAR Replay',
+      en: 'Pickleball · VAR Replay'
     },
-    image: '/assets/case-studies/AEON-BETA/IMG/Screenshot 2026-04-22 003612.png ',
-    location: { vi: 'Vũ Yên', en: 'Vu Yen' },
-    desc: { 
-      vi: 'Tại Vincom Royal Island, hệ thống rạp chiếu phim AEON BETA Cinemas yêu cầu một giải pháp hiển thị hiện đại nhằm nâng cao trải nghiệm khách hàng ngay từ khu vực sảnh.',
-      en: 'At Vincom Royal Island, AEON BETA Cinemas requires a modern display solution to enhance customer experience right from the lobby.'
+    image: '/assets/VNVAR assets/IMG/652136528_122161075808731210_5380463322729828341_n.jpg ',
+    location: { vi: 'Hà Nội', en: 'Hanoi' },
+    desc: {
+      vi: 'Triển khai hệ thống VAR Replay và bảng điểm thông minh tại Sân Pickleball Ven Đê 4, mang lại trải nghiệm thi đấu chuyên nghiệp và minh bạch.',
+      en: 'Implementing VAR Replay system and smart scoreboard at Ven De 4 Pickleball Court, providing a professional and transparent competition experience.'
     },
     challenge: {
-      vi: 'Yêu cầu cao về kỹ thuật, nắm rõ bức tranh tổng quan về thiết kế, đọc được bản vẽ xây dựng.',
-      en: 'High technical requirements, understanding the overall design, and reading construction drawings.'
+      vi: 'Yêu cầu tích hợp hệ thống quay chậm (Slow-motion) với độ trễ thấp trên hạ tầng sân ngoài trời.',
+      en: 'Requiring low-latency slow-motion system integration on outdoor court infrastructure.'
     },
     solution: {
-      vi: 'Sử dụng màn hình LG để đảm bảo chất lượng. Cài đặt On-Premise để đảm bảo phát liên tục.',
-      en: 'Used LG screens for quality. On-Premise installation to ensure continuous broadcasting.'
+      vi: 'Sử dụng hệ thống camera 4K tốc độ cao kết hợp phần mềm phân tích VAR của VNVAR, vận hành ổn định trong mọi điều kiện thời tiết.',
+      en: 'Using high-speed 4K cameras combined with VNVAR analysis software, operating stably in all weather conditions.'
     },
     overview: {
-      vi: 'Tại Vincom Royal Island, hệ thống rạp chiếu phim AEON BETA Cinemas yêu cầu một giải pháp hiển thị hiện đại nhằm nâng cao trải nghiệm khách hàng ngay từ khu vực sảnh.',
-      en: 'At Vincom Royal Island, AEON BETA Cinemas requires a modern display solution to enhance customer experience right from the lobby.'
+      vi: 'Dự án trọng điểm cung cấp giải pháp công nghệ toàn diện cho cụm sân Pickleball, bao gồm VAR, livestream và quản lý vận hành tự động.',
+      en: 'Key project providing comprehensive tech solutions for Pickleball clusters, including VAR, livestream, and automated management.'
     },
     specs: [
-      { vi: 'Hệ thống màn hình chuyên dụng LG High-Brightness', en: 'LG High-Brightness professional screen system' },
-      { vi: 'Giải pháp quản lý nội dung On-Premise bảo mật cao', en: 'High-security On-Premise content management solution' },
-      { vi: 'Khả năng vận hành 24/7 trong điều kiện môi trường biển', en: '24/7 operation capability in marine environments' },
-      { vi: 'Tích hợp đồng bộ với hệ thống âm thanh và ánh sáng', en: 'Synchronized integration with sound and lighting' }
+      { vi: 'Hệ thống Camera VAR 4K đa góc quay', en: 'Multi-angle 4K VAR Camera system' },
+      { vi: 'Màn hình check VAR chuyên dụng ngoài trời', en: 'Specialized outdoor VAR check screens' },
+      { vi: 'Phần mềm quản lý sân và đặt lịch trực tuyến', en: 'Court management and online booking software' },
+      { vi: 'Hệ thống Livestream tự động lên mạng xã hội', en: 'Automated social media livestream system' }
     ],
     result: {
-      vi: 'Hệ thống đã đi vào hoạt động ổn định, góp phần tạo nên những trải nghiệm thị giác mãn nhãn cho khách hàng.',
-      en: 'The system has been operating stably, contributing to eye-catching visual experiences for customers.'
+      vi: 'Tăng 30% hiệu suất vận hành và thu hút lượng lớn vận động viên nhờ trải nghiệm công nghệ VAR độc đáo.',
+      en: 'Increased operating efficiency by 30% and attracted a large number of athletes thanks to the unique VAR technology experience.'
     },
     featured: true,
   },
   {
     id: 'toco-toco',
-    tag: { vi: 'Chuỗi cửa hàng', en: 'Chain Store' },
+    tag: { vi: 'Hệ thống sân', en: 'Court System' },
     tagColor: 'brand',
-    title: { 
-      vi: 'AEON BETA – Vincom Smart City', 
-      en: 'AEON BETA – Vincom Smart City' 
+    title: {
+      vi: 'Sân Pickleball Tsunami Lê Văn Thiêm',
+      en: 'Tsunami Le Van Thiem Pickleball Court'
     },
-    model: { 
-      vi: 'Enterprise · Giải trí', 
-      en: 'Enterprise · Entertainment' 
+    model: {
+      vi: 'Pickleball · Smart Venue',
+      en: 'Pickleball · Smart Venue'
     },
-    image: '/assets/case-studies/AEON-BETA/IMG/z7520683894147_0bd90845c4c1311798efe7477cd7bba0.jpg',
+    image: '/assets/VNVAR assets/IMG/cebde3af-4656-49ed-a6e8-69848b2bbfb7.jpg',
     location: { vi: 'Hà Nội', en: 'Hanoi' },
-    desc: { 
-      vi: 'Tại Vincom Smart City, AEON BETA Cinemas tiếp tục mở rộng hệ thống với yêu cầu đồng bộ trải nghiệm hiển thị giữa các cụm rạp.',
-      en: 'At Vincom Smart City, AEON BETA Cinemas continues to expand with the requirement to synchronize display experiences across cinema clusters.'
+    desc: {
+      vi: 'Giải pháp quản lý vận hành và hiển thị thông tin thông minh cho tổ hợp sân Pickleball Tsunami tại khu vực Thanh Xuân.',
+      en: 'Smart operation management and information display solution for Tsunami Pickleball complex in Thanh Xuan area.'
     },
     challenge: {
-      vi: 'Số lượng điểm triển khai lớn, yêu cầu quản lý nội dung tập trung và đồng bộ theo thời gian thực.',
-      en: 'Large number of deployment points, requiring centralized and synchronized content management in real-time.'
+      vi: 'Quản lý đồng bộ nhiều sân đấu cùng lúc và tích hợp hệ thống bảng điểm với ứng dụng di động của người chơi.',
+      en: 'Managing multiple courts simultaneously and integrating scoreboard system with players\' mobile apps.'
     },
     solution: {
-      vi: 'Sử dụng phần mềm VNSIGN Cloud để quản lý tập trung. Màn hình chuyên dụng 24/7.',
-      en: 'Used VNSIGN Cloud software for centralized management. 24/7 professional screens.'
+      vi: 'Triển khai nền tảng quản lý tập trung VNVAR Cloud kết hợp hệ thống bảng điểm LED đồng bộ thời gian thực.',
+      en: 'Deploying VNVAR Cloud centralized management platform combined with real-time synchronized LED scoreboard system.'
     },
     overview: {
-      vi: 'Tại Vincom Smart City, AEON BETA Cinemas tiếp tục mở rộng hệ thống với yêu cầu đồng bộ trải nghiệm hiển thị giữa các cụm rạp.',
-      en: 'At Vincom Smart City, AEON BETA Cinemas continues to expand with the requirement to synchronize display experiences across cinema clusters.'
+      vi: 'Số hóa toàn diện trải nghiệm tại sân Pickleball Tsunami, từ khâu đặt sân đến việc theo dõi tỉ số và xem lại các pha bóng hay.',
+      en: 'Fully digitizing the experience at Tsunami Pickleball court, from booking to score tracking and rewatching highlights.'
     },
     specs: [
-      { vi: 'Hệ thống Menu Board điện tử 43–49 inch', en: '43–49 inch digital Menu Board system' },
-      { vi: 'Phần mềm quản lý nội dung VNSIGN Cloud', en: 'VNSIGN Cloud content management software' },
-      { vi: 'Cập nhật giá và chương trình khuyến mãi tức thì', en: 'Instant price and promotion updates' },
-      { vi: 'Hỗ trợ hiển thị video 4K sắc nét', en: 'Support 4K sharp video display' }
+      { vi: 'Hệ thống bảng điểm thông minh Smart Scoreboard', en: 'Smart Scoreboard system' },
+      { vi: 'Tích hợp hệ thống thanh toán và đặt sân tự động', en: 'Integrated automated payment and booking system' },
+      { vi: 'Màn hình quảng cáo và hiển thị thông tin giải đấu', en: 'Tournament info and advertising displays' },
+      { vi: 'Công nghệ phân tích video AI cho các pha bóng', en: 'AI video analysis for highlight plays' }
     ],
     result: {
-      vi: 'Tăng 20% doanh thu từ các món mới nhờ hình ảnh hiển thị hấp dẫn, giảm 90% chi phí in ấn menu truyền thống.',
-      en: 'Increased revenue from new items by 20% thanks to attractive display, reduced menu printing costs by 90%.'
+      vi: 'Tối ưu hóa quy trình đặt sân, giảm 50% khối lượng công việc quản lý thủ công cho chủ đầu tư.',
+      en: 'Optimized booking process, reduced manual management workload for investors by 50%.'
     },
     featured: true,
   },
   {
     id: 'amway',
-    tag: { vi: 'Doanh nghiệp', en: 'Corporate' },
+    tag: { vi: 'Giải trí', en: 'Entertainment' },
     tagColor: 'brand',
-    title: { 
-      vi: 'DOJI – Hệ thống cửa hàng vàng bạc', 
-      en: 'DOJI – Jewelry Store Chain' 
+    title: {
+      vi: 'Quán Bida Hồng Tiến',
+      en: 'Hong Tien Billiards Club'
     },
-    model: { 
-      vi: 'Corporate Signage · Bán lẻ', 
-      en: 'Corporate Signage · Retail' 
+    model: {
+      vi: 'Billiards · Smart Display',
+      en: 'Billiards · Smart Display'
     },
-    image: '/assets/case-studies/CASE-KHAC/z7504464998053_c0c1b9a1ad9fb9cb3a4bb4a60f6a055c.jpg',
-    location: { vi: 'Toàn quốc', en: 'Nationwide' },
-    desc: { 
-      vi: 'DOJI là thương hiệu vàng bạc đá quý lớn tại Việt Nam, yêu cầu giải pháp hiển thị vừa sang trọng vừa linh hoạt trong việc truyền tải thông tin sản phẩm và chương trình ưu đãi.',
-      en: 'DOJI is a major jewelry brand in Vietnam, requiring a display solution that is both luxurious and flexible in conveying product information and promotions.'
+    image: '/assets/VNVAR assets/IMG/ce979d27-f27c-4590-96c1-42fec78ab7eb.png',
+    location: { vi: 'Hà Nội', en: 'Hanoi' },
+    desc: {
+      vi: 'Nâng cấp hệ thống hiển thị và quản lý dịch vụ tại Quán Bida Hồng Tiến, tạo không gian giải trí hiện đại.',
+      en: 'Upgrading display and service management system at Hong Tien Billiards Club, creating a modern entertainment space.'
     },
     challenge: {
-      vi: 'Cần hệ thống quản lý nội dung chuyên nghiệp, hỗ trợ phân quyền quản lý theo từng khu vực.',
-      en: 'Need a professional content management system with regional decentralization support.'
+      vi: 'Đồng bộ hóa hệ thống tính giờ, bảng điểm và dịch vụ gọi món tại bàn.',
+      en: 'Synchronizing timing system, scoreboard, and table-side ordering service.'
     },
     solution: {
-      vi: 'Triển khai VNSIGN Cloud với tính năng phân quyền đa cấp. Sử dụng màn hình Samsung/LG chuyên dụng.',
-      en: 'Deployed VNSIGN Cloud with multi-level decentralization. Used Samsung/LG professional screens.'
+      vi: 'Sử dụng màn hình chuyên dụng tích hợp phần mềm quản lý VNVAR để điều phối hoạt động kinh doanh.',
+      en: 'Using professional displays integrated with VNVAR management software to coordinate business activities.'
     },
     overview: {
-      vi: 'DOJI là thương hiệu vàng bạc đá quý lớn tại Việt Nam, yêu cầu giải pháp hiển thị vừa sang trọng vừa linh hoạt trong việc truyền tải thông tin sản phẩm và chương trình ưu đãi.',
-      en: 'DOJI is a major jewelry brand in Vietnam, requiring a display solution that is both luxurious and flexible in conveying product information and promotions.'
+      vi: 'Giải pháp toàn diện cho câu lạc bộ Bida hiện đại, kết hợp giữa hiển thị quảng cáo và hỗ trợ vận hành.',
+      en: 'Comprehensive solution for modern Billiards clubs, combining advertising display and operational support.'
     },
     specs: [
-      { vi: '20 màn hình chuyên dụng 55–65 inch', en: '20 professional 55–65 inch screens' },
-      { vi: 'Hệ thống quản lý nội dung đám mây VNSIGN Cloud', en: 'VNSIGN Cloud content management system' },
-      { vi: 'Phân quyền quản lý nội dung theo vùng miền', en: 'Regional content management decentralization' },
-      { vi: 'Lập lịch phát nội dung tự động theo chiến dịch', en: 'Automatic content scheduling by campaign' }
+      { vi: 'Màn hình hiển thị bảng điểm và thời gian chơi', en: 'Scoreboard and playtime display screens' },
+      { vi: 'Hệ thống Menu điện tử và gọi món tại bàn', en: 'Electronic menu and table-side ordering system' },
+      { vi: 'Quản lý doanh thu và khách hàng tập trung', en: 'Centralized revenue and customer management' },
+      { vi: 'Hệ thống livestream các trận đấu bida hay', en: 'Livestream system for great billiards matches' }
     ],
     result: {
-      vi: 'Nâng cao hình ảnh thương hiệu chuyên nghiệp, tối ưu hóa việc truyền tải thông tin sản phẩm đến khách hàng.',
-      en: 'Enhanced professional brand image, optimized product information delivery to customers.'
+      vi: 'Tăng tính chuyên nghiệp cho quán, khách hàng hài lòng hơn với dịch vụ minh bạch và nhanh chóng.',
+      en: 'Increased professionalism, customers more satisfied with transparent and fast service.'
     },
     featured: false,
   },
   {
     id: 'hospital',
-    tag: { vi: 'Y tế', en: 'Healthcare' },
+    tag: { vi: 'Khu đô thị', en: 'Urban Area' },
     tagColor: 'brand',
-    title: { 
-      vi: 'Nhà hàng Bếp Quán', 
-      en: 'Bep Quan Restaurant' 
+    title: {
+      vi: 'Sân Pickleball Eco Park',
+      en: 'Eco Park Pickleball Court'
     },
-    model: { 
-      vi: 'Restaurant - F&B', 
-      en: 'Restaurant - F&B' 
+    model: {
+      vi: 'Residential · Sports',
+      en: 'Residential · Sports'
     },
-    image: '/assets/case-studies/CASE-KHAC/z7507825042643_9c2b660644b896e963a813098cfa7dd9.jpg',
-    location: { vi: 'TP.HCM', en: 'HCMC' },
-    desc: { 
-      vi: 'Bếp Quán là mô hình nhà hàng phục vụ ẩm thực với lượng khách đông vào giờ cao điểm, yêu cầu một giải pháp hiển thị giúp tối ưu trải nghiệm khách hàng và hỗ trợ vận hành hiệu quả.',
-      en: 'Bep Quan is a restaurant model with high traffic during peak hours, requiring a display solution to optimize customer experience and support efficient operation.'
+    image: '/assets/VNVAR assets/IMG/Thiết kế chưa có tên.png',
+    location: { vi: 'Hà Nội', en: 'Hà Nội' },
+    desc: {
+      vi: 'Cung cấp hệ thống quản lý và Livestream tự động cho cụm sân Pickleball tại khu đô thị Eco Park.',
+      en: 'Providing automated management and Livestream system for Pickleball court clusters in Eco Park urban area.'
     },
     challenge: {
-      vi: 'Yêu cầu nội dung quản lý tập trung, thay đổi từ xa dễ dàng với mức chi phí hợp lý.',
-      en: 'Requirement for centralized content management, easy remote updates at a reasonable cost.'
+      vi: 'Triển khai hệ thống tự động hóa hoàn toàn để cư dân có thể tự đặt sân và nhận video thi đấu.',
+      en: 'Implementing full automation so residents can self-book courts and receive match videos.'
     },
     solution: {
-      vi: 'Smart TV hệ điều hành Android kết hợp phần mềm VNSIGN để quản lý tập trung.',
-      en: 'Android Smart TVs combined with VNSIGN software for centralized management.'
+      vi: 'Hệ thống Smart Venue của VNVAR tích hợp vào ứng dụng cư dân, tự động hóa quy trình từ đặt sân đến ghi hình.',
+      en: 'VNVAR Smart Venue system integrated into the resident app, automating the process from booking to recording.'
     },
     overview: {
-      vi: 'Bếp Quán là mô hình nhà hàng phục vụ ẩm thực với lượng khách đông vào giờ cao điểm, yêu cầu một giải pháp hiển thị giúp tối ưu trải nghiệm khách hàng và hỗ trợ vận hành hiệu quả.',
-      en: 'Bep Quan is a restaurant model with high traffic during peak hours, requiring a display solution to optimize customer experience and support efficient operation.'
+      vi: 'Dự án mang lại tiện ích thể thao đẳng cấp cho cư dân Eco Park với các công nghệ hỗ trợ thi đấu hiện đại nhất.',
+      en: 'Project providing world-class sports amenities for Eco Park residents with the most modern competition support techs.'
     },
     specs: [
-      { vi: 'Hệ thống Smart TV Android', en: 'Android Smart TV system' },
-      { vi: 'Phần mềm quản lý nội dung VNSIGN', en: 'VNSIGN content management software' },
-      { vi: 'Quản trị nội dung từ xa qua Cloud', en: 'Remote content management via Cloud' },
-      { vi: 'Hỗ trợ nhiều định dạng video và hình ảnh', en: 'Support multiple video and image formats' }
+      { vi: 'Hệ thống Camera ghi hình tự động', en: 'Automated recording camera system' },
+      { vi: 'Bảng điểm thông minh kết nối Mobile App', en: 'Smart scoreboard connected to Mobile App' },
+      { vi: 'Cổng kiểm soát ra vào tự động qua mã QR', en: 'Automated access control via QR code' },
+      { vi: 'Nền tảng chia sẻ khoảnh khắc thể thao cộng đồng', en: 'Community sports moment sharing platform' }
     ],
     result: {
-      vi: 'Chủ động trong việc truyền thông, giảm thiểu thời gian cập nhật nội dung thủ công.',
-      en: 'Proactive in communication, minimizing manual content update time.'
+      vi: 'Tạo sân chơi công nghệ cao cho cộng đồng, tối ưu chi phí nhân sự vận hành cho ban quản lý.',
+      en: 'Created a high-tech playground for the community, optimized personnel operating costs for management.'
     },
     featured: false,
   },
   {
     id: 'tan-son-nhat-t3',
-    tag: { vi: 'Vận tải', en: 'Transport' },
+    tag: { vi: 'Học viện thể thao', en: 'Sports Academy' },
     tagColor: 'brand',
-    title: { 
-      vi: 'AEON BETA – Central Premium', 
-      en: 'AEON BETA – Central Premium' 
+    title: {
+      vi: 'Sân Pickleball Pika Academy',
+      en: 'Pika Academy Pickleball Court'
     },
-    model: { 
-      vi: 'Transport Signage · Hàng không', 
-      en: 'Transport Signage · Aviation' 
+    model: {
+      vi: 'Academy · Training Tech',
+      en: 'Academy · Training Tech'
     },
-    image: '/assets/case-studies/AEON-BETA/IMG/z7581295186031_bccaef4e30e92c1f622d90c99ebe5e0b.jpg',
+    image: '/assets/VNVAR assets/IMG/751600d38d61451e942d28bdbf4964e7.jpg',
     location: { vi: 'TP.HCM', en: 'HCMC' },
-    desc: { 
-      vi: 'Tại khu phức hợp Central Premium, AEON BETA Cinemas hướng tới mô hình rạp cao cấp với yêu cầu hiển thị nội dung sắc nét và linh hoạt.',
-      en: 'At the Central Premium complex, AEON BETA Cinemas aims for a premium cinema model with requirements for sharp and flexible content display.'
+    desc: {
+      vi: 'Ứng dụng công nghệ VAR và phân tích hình ảnh vào công tác đào tạo tại Học viện Pickleball Pika.',
+      en: 'Applying VAR technology and image analysis to training at Pika Pickleball Academy.'
     },
     challenge: {
-      vi: 'Yêu cầu cao về kỹ thuật, phối hợp đối tác xây dựng tại công trường, đáp ứng tiêu chuẩn an ninh nghiêm ngặt.',
-      en: 'High technical requirements, coordination with construction partners, and meeting strict security standards.'
+      vi: 'Hỗ trợ huấn luyện viên phân tích kỹ thuật của học viên qua video quay chậm ngay tại sân.',
+      en: 'Supporting coaches in analyzing students\' techniques via slow-motion video right on the court.'
     },
     solution: {
-      vi: 'Kết hợp với các hãng công nghệ hàng đầu để triển khai giải pháp đồng bộ theo yêu cầu chủ đầu tư.',
-      en: 'Cooperated with leading technology firms to deploy synchronized solutions according to requirements.'
+      vi: 'Lắp đặt hệ thống màn hình cảm ứng và camera quay chậm chuyên sâu phục vụ phân tích kỹ thuật.',
+      en: 'Installing touch screen systems and intensive slow-motion cameras for technical analysis.'
     },
     overview: {
-      vi: 'Tại khu phức hợp Central Premium, AEON BETA Cinemas hướng tới mô hình rạp cao cấp với yêu cầu hiển thị nội dung sắc nét và linh hoạt.',
-      en: 'At the Central Premium complex, AEON BETA Cinemas aims for a premium cinema model with requirements for sharp and flexible content display.'
+      vi: 'Học viện Pika Academy được trang bị những công nghệ tiên tiến nhất để hỗ trợ người chơi từ cơ bản đến nâng cao.',
+      en: 'Pika Academy is equipped with the latest technologies to support players from basic to advanced levels.'
     },
     specs: [
-      { vi: 'Hệ thống màn hình ghép (Video Wall) siêu mỏng', en: 'Ultra-thin Video Wall system' },
-      { vi: 'Màn hình hiển thị thông tin chuyến bay (FIDS)', en: 'Flight Information Display System (FIDS)' },
-      { vi: 'Hệ thống quản lý tập trung bảo mật cao', en: 'High-security centralized management system' },
-      { vi: 'Tích hợp dữ liệu thời gian thực từ hệ thống điều hành bay', en: 'Real-time data integration from flight operation systems' }
+      { vi: 'Hệ thống Video phân tích kỹ thuật chuyên sâu', en: 'Intensive technical analysis video system' },
+      { vi: 'Màn hình tương tác dành cho huấn luyện viên', en: 'Interactive displays for coaches' },
+      { vi: 'Lưu trữ và chia sẻ video bài tập qua Cloud', en: 'Storage and sharing of exercise videos via Cloud' },
+      { vi: 'Hệ thống âm thanh thông báo và chỉ dẫn', en: 'Public address and guidance sound system' }
     ],
     result: {
-      vi: 'Góp phần hiện đại hóa hạ tầng, nâng cao trải nghiệm khách hàng và đảm bảo thông tin thông suốt 24/7.',
-      en: 'Contributed to modernizing infrastructure, enhancing customer experience, and ensuring smooth info 24/7.'
+      vi: 'Nâng cao chất lượng đào tạo, giúp học viên tiến bộ nhanh hơn 40% thông qua việc xem lại lỗi kỹ thuật.',
+      en: 'Improved training quality, helping students progress 40% faster by reviewing technical errors.'
     },
     featured: true,
   },

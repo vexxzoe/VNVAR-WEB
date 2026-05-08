@@ -15,23 +15,7 @@ const HowItWorks = () => {
   const { t } = useLanguage();
   const { openContactModal } = useContactModal();
   
-  const steps = [
-    {
-      number: "01",
-      title: t.howItWorks.steps[0].title,
-      desc: t.howItWorks.steps[0].desc
-    },
-    {
-      number: "02",
-      title: t.howItWorks.steps[1].title,
-      desc: t.howItWorks.steps[1].desc
-    },
-    {
-      number: "03",
-      title: t.howItWorks.steps[2].title,
-      desc: t.howItWorks.steps[2].desc
-    }
-  ];
+
 
   return (
     <section id="how-it-works" className="relative overflow-hidden bg-white" style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}>
@@ -58,7 +42,7 @@ const HowItWorks = () => {
           <div className="hidden md:block absolute top-16 left-0 right-0 h-px bg-gradient-to-r from-transparent via-brand-200 to-transparent" />
 
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-            {steps.map((step, i) => (
+            {t.howItWorks.steps.map((step, i) => (
               <motion.div 
                 key={i}
                 initial={{ opacity: 0, y: 30 }}
@@ -69,7 +53,7 @@ const HowItWorks = () => {
               >
                 {/* Step number circle */}
                 <div className="relative inline-flex md:flex items-center justify-center w-14 h-14 rounded-full bg-brand-600 text-white font-black text-xl mb-8 shadow-lg shadow-brand-600/25 group-hover:bg-accent-400 group-hover:text-brand-950 transition-all duration-300 mx-auto md:mx-0">
-                  {step.number}
+                  {(i + 1).toString().padStart(2, '0')}
                   {/* Pulse ring on hover */}
                   <div className="absolute inset-0 rounded-full bg-brand-600/20 scale-0 group-hover:scale-150 opacity-0 group-hover:opacity-0 transition-all duration-500" />
                 </div>
@@ -95,7 +79,7 @@ const HowItWorks = () => {
           className="text-center mt-16"
         >
           <button
-            onClick={() => openContactModal('Dùng thử VNSIGN')}
+            onClick={() => openContactModal('Giải pháp VNVAR')}
             className="inline-flex items-center gap-2 bg-brand-600 text-white px-10 py-4 rounded-full font-black text-sm uppercase tracking-widest hover:bg-brand-700 hover:scale-105 transition-all shadow-xl shadow-brand-600/20 active:scale-95 cursor-pointer"
           >
             {t.howItWorks.ctaStart} <ChevronRight className="w-4 h-4" />

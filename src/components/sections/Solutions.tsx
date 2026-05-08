@@ -24,7 +24,7 @@ const Solutions = () => {
               <Link to="/lcd" className="space-y-4 group">
                 <div className="relative overflow-hidden rounded-3xl aspect-[3/4]">
                   <img
-                    src="/assets/case-studies/AEON-BETA/IMG/z7520683894147_0bd90845c4c1311798efe7477cd7bba0.jpg"
+                    src="/assets/VNVAR assets/IMG/619201e9-2a44-42e7-b2c2-a2863cf8cf20.png"
                     alt="LCD Screen Solution"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
@@ -33,26 +33,26 @@ const Solutions = () => {
               <div className="space-y-4 pt-12">
                 <div className="relative overflow-hidden rounded-3xl aspect-[3/4] group shadow-xl">
                   <img
-                    src="/assets/case-studies/AEON-BETA/IMG/z7517266145563_09336c8d4d36092af06c5ec568aaf682.jpg"
+                    src="/assets/VNVAR assets/IMG/50cc26ef-8bba-4505-8f7b-f5b373cc37a6.jpg"
                     alt="Kiosk Solution"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-brand-950/30 group-hover:bg-brand-950/40 transition-colors p-6 flex flex-col justify-end">
                     <Smartphone className="w-8 h-8 mb-4 text-accent-400" />
-                    <div className="text-2xl font-bold text-white uppercase tracking-tight">{t.solutions.kiosk}</div>
-                    <div className="text-sm text-white/80">{t.solutions.kioskSub}</div>
+                    <div className="text-2xl font-bold text-white uppercase tracking-tight">{t.solutions.items[1].title}</div>
+                    <div className="text-sm text-white/80">{t.solutions.items[1].desc}</div>
                   </div>
                 </div>
                 <Link to="/led" className="relative overflow-hidden rounded-3xl aspect-[3/4] block group shadow-xl">
                   <img
-                    src="/assets/case-studies/AEON-BETA/IMG/z7517266156681_5ebe3cf13cc6e268f2c478955f5f65f3.jpg"
+                    src="/assets/VNVAR assets/IMG/g1.png"
                     alt="LED Screen Solution"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-6">
                     <div className="text-white">
-                      <div className="text-2xl font-bold uppercase tracking-tight">LED & Large Scale</div>
-                      <div className="text-sm opacity-80">{t.solutions.led}</div>
+                      <div className="text-2xl font-bold uppercase tracking-tight">{t.solutions.items[0].title}</div>
+                      <div className="text-sm opacity-80">{t.solutions.items[0].desc}</div>
                     </div>
                   </div>
                 </Link>
@@ -69,12 +69,7 @@ const Solutions = () => {
             </p>
 
             <div className="space-y-6 mb-10">
-              {[
-                { title: t.solutions.lcd, desc: t.solutions.lcdSub, href: "/lcd" },
-                { title: t.solutions.led, desc: t.solutions.ledSub, href: "/led" },
-                { title: t.solutions.menu, desc: t.solutions.menuSub, href: "#contact", modal: true },
-                { title: t.solutions.kiosk, desc: t.solutions.kioskSub, href: "#contact", modal: true }
-              ].map((item, i) => (
+              {t.solutions.items.map((item: any, i: number) => (
                 item.modal ? (
                   <button
                     key={i}
@@ -92,7 +87,7 @@ const Solutions = () => {
                 ) : (
                   <Link
                     key={i}
-                    to={item.href}
+                    to={i === 0 ? "/lcd" : "/led"}
                     className="flex gap-4 p-4 rounded-2xl hover:bg-brand-50/50 transition-colors group cursor-pointer border border-transparent hover:border-slate-200"
                   >
                     <div className="mt-1">
@@ -107,10 +102,10 @@ const Solutions = () => {
               ))}
             </div>
             <button
-              onClick={() => openContactModal('Giải pháp VNSIGN')}
+              onClick={() => openContactModal('Giải pháp VNVAR')}
               className="inline-flex items-center gap-2 bg-brand-600 text-white px-8 py-4 rounded-full font-bold hover:bg-brand-700 transition-all shadow-lg shadow-brand-200 group cursor-pointer"
             >
-              {t.hero.ctaStart} <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              {t.nav.tryNow} <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
           </div>
         </div>

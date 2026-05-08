@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
-import { 
-  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play, 
-  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings, 
+import {
+  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play,
+  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings,
   BarChart3, ChevronDown, FileText, Youtube, Award, Users, Rocket, HeartHandshake
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -12,28 +12,10 @@ import { LazyVideo } from '../LazyVideo';
 
 const USP = () => {
   const { t } = useLanguage();
-  const advantages = [
-    {
-      icon: Zap,
-      title: t.usp.tech.title,
-      desc: t.usp.tech.desc
-    },
-    {
-      icon: Award,
-      title: t.usp.cost.title,
-      desc: t.usp.cost.desc
-    },
-    {
-      icon: Users,
-      title: t.usp.channel.title,
-      desc: t.usp.channel.desc
-    },
-    {
-      icon: HeartHandshake,
-      title: t.usp.support247.title,
-      desc: t.usp.support247.desc
-    }
-  ];
+  const advantages = t.usp.advantages.map((adv: any, i: number) => ({
+    ...adv,
+    icon: [Zap, Award, Users, HeartHandshake][i] || Zap
+  }));
 
   return (
     <section className="relative overflow-hidden bg-brand-950 border-y border-white/5" style={{ fontFamily: "'Be Vietnam Pro', sans-serif" }}>

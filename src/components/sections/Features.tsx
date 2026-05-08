@@ -16,26 +16,26 @@ const Features = () => {
   const features = [
     {
       icon: Cloud,
-      title: t.features.cloud.title,
-      description: t.features.cloud.desc,
+      title: t.features.items[0].title,
+      description: t.features.items[0].desc,
       video: t.features.cloud.video
     },
     {
       icon: Layout,
-      title: t.features.dragDrop.title,
-      description: t.features.dragDrop.desc,
+      title: t.features.items[1].title,
+      description: t.features.items[1].desc,
       video: t.features.dragDrop.video
     },
     {
       icon: Clock,
-      title: t.features.schedule.title,
-      description: t.features.schedule.desc,
+      title: t.features.items[2].title,
+      description: t.features.items[2].desc,
       video: t.features.schedule.video
     },
     {
       icon: BarChart3,
-      title: t.features.realtime.title,
-      description: t.features.realtime.desc,
+      title: t.features.items[3].title,
+      description: t.features.items[3].desc,
       video: t.features.realtime.video
     }
   ];
@@ -55,12 +55,11 @@ const Features = () => {
               <span className="text-accent-400 text-xs font-bold uppercase tracking-[0.18em]">{t.features.badgeLabel}</span>
             </div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-brand-950 leading-[1.08] tracking-tight max-w-3xl">
-              {t.features.headingLine1} <span className="text-accent-400">{t.features.headingHighlight}</span><br />
-              {t.features.headingLine2}
+              {t.features.headingLine1} <span className="text-accent-400">{t.features.headingHighlight}</span>
             </h2>
           </div>
           <p className="text-brand-600 text-base font-medium leading-relaxed max-w-sm md:text-right">
-            {t.features.subtitle}
+            {t.features.summary}
           </p>
         </div>
 
@@ -74,19 +73,19 @@ const Features = () => {
           >
             <div className="sticky top-32">
               <div className="relative rounded-[40px] overflow-hidden border border-brand-100 shadow-2xl aspect-[4/5] bg-brand-950 group">
-                <LazyVideo src="/assets/case-studies/AEON-BETA/VIDEO/7517333053904.mp4" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-[5s]" />
+                <LazyVideo src="/assets/VNVAR assets/VIDEO/IMG_0411.mov" className="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-[5s]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
 
                 {/* Live badge */}
                 <div className="absolute top-6 left-6 flex items-center gap-2 bg-black/60 backdrop-blur-md border border-white/20 rounded-full px-4 py-1.5">
                   <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-                  <span className="text-white text-xs font-bold uppercase tracking-widest">{t.features.liveBadge}</span>
+                  <span className="text-white text-xs font-bold uppercase tracking-widest">{t.features.liveMatch}</span>
                 </div>
 
                 <div className="absolute bottom-10 left-10 right-10 text-white">
-                  <div className="text-accent-400 text-xs font-black uppercase tracking-widest mb-2">{t.features.liveCaption}</div>
+                  <div className="text-accent-400 text-xs font-black uppercase tracking-widest mb-2">{t.features.matchControl}</div>
                   <h4 className="text-2xl md:text-3xl font-black leading-tight mb-3">
-                    {t.features.videoCaption}
+                    {t.features.videoTitle}
                   </h4>
                   <div className="flex items-center gap-3 text-sm">
                     <div className="flex -space-x-2">
@@ -94,7 +93,7 @@ const Features = () => {
                         <div key={i} className="w-7 h-7 rounded-full bg-brand-600 border-2 border-brand-950 flex items-center justify-center text-white text-[10px] font-black">{i}</div>
                       ))}
                     </div>
-                    <span>{t.features.socialProof}</span>
+                    <span>{t.features.activeVenues}</span>
                   </div>
                 </div>
               </div>
@@ -106,7 +105,7 @@ const Features = () => {
                 className="absolute -bottom-6 -right-6 bg-accent-400 px-7 py-5 rounded-3xl shadow-2xl z-20"
               >
                 <div className="text-4xl font-black text-brand-950">99.9%</div>
-                <div className="text-xs font-bold text-brand-950/70 uppercase tracking-widest">{t.features.uptimeLabel}</div>
+                <div className="text-xs font-bold text-brand-950/70 uppercase tracking-widest">{t.features.accuracy}</div>
               </motion.div>
             </div>
           </motion.div>

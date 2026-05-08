@@ -11,9 +11,9 @@ interface LogoProps {
   logoUrl?: string;
 }
 
-export const Logo: React.FC<LogoProps> = ({ 
-  className, 
-  iconClassName, 
+export const Logo: React.FC<LogoProps> = ({
+  className,
+  iconClassName,
   textClassName,
   showText = true,
   variant = 'image',
@@ -23,9 +23,9 @@ export const Logo: React.FC<LogoProps> = ({
   return (
     <div className={cn("flex items-center gap-3 group cursor-pointer", className)}>
       {variant === 'image' ? (
-        <img 
-          src={finalLogoUrl} 
-          alt="Vnsign Logo" 
+        <img
+          src={finalLogoUrl}
+          alt="Vnsign Logo"
           className={cn("h-10 w-auto object-contain", iconClassName)}
         />
       ) : (

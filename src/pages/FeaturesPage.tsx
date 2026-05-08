@@ -168,13 +168,13 @@ const FeaturesPage = () => {
               transition={{ delay: 0.34, duration: 0.55 }}
               className="flex flex-col sm:flex-row justify-center gap-4 mb-14"
             >
-              <button 
+              <button
                 onClick={() => openContactModal(t.featuresPage.hero.btnTry)}
                 className="inline-flex items-center justify-center gap-2 bg-accent-400 text-brand-950 px-8 py-3.5 rounded-full text-base font-black hover:bg-accent-500 hover:scale-105 transition-all shadow-xl shadow-accent-400/25 active:scale-95"
               >
                 {t.featuresPage.hero.btnTry}
               </button>
-              <a 
+              <a
                 href="https://www.tiktok.com/@vndctech"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -240,7 +240,7 @@ const FeaturesPage = () => {
               className="relative rounded-3xl overflow-hidden shadow-[0_24px_48px_rgba(8,103,136,0.18)] group"
             >
               <img
-                src="/assets/case-studies/CASE-KHAC/z7507825021044_0ae03fb13bd52cc35a2f340b21549b91.jpg"
+                src="/assets/VNVAR assets/IMG/751600d38d61451e942d28bdbf4964e7.jpg"
                 alt="Centralized management dashboard"
                 className="w-full h-[700px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -249,7 +249,7 @@ const FeaturesPage = () => {
                 <Shield className="w-4 h-4" /> {t.featuresPage.mgmt.badge.split('·')[0].trim()}
               </div>
               <div className="absolute bottom-6 left-6 right-6 bg-brand-950/80 backdrop-blur-md rounded-2xl px-5 py-4 border border-white/10">
-                <div className="text-accent-400 font-bold text-sm mb-1">✦ Highlight</div>
+                <div className="text-accent-400 font-bold text-sm mb-1">{t.featuresPage.monitoring.highlightLabel}</div>
                 <div className="text-white font-semibold text-sm">{t.featuresPage.mgmt.highlight}</div>
               </div>
             </motion.div>
@@ -296,7 +296,7 @@ const FeaturesPage = () => {
               className="relative rounded-3xl overflow-hidden shadow-[0_24px_48px_rgba(255,193,7,0.2)] group"
             >
               <img
-                src="/assets/case-studies/CASE-KHAC/z7504464998053_c0c1b9a1ad9fb9cb3a4bb4a60f6a055c.jpg"
+                src="/assets/VNVAR assets/IMG/652136528_122161075808731210_5380463322729828341_n.jpg"
                 alt="Content management and scheduling"
                 className="w-full h-[700px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -305,7 +305,7 @@ const FeaturesPage = () => {
                 <Calendar className="w-4 h-4" /> {t.featuresPage.content.badge.split('·')[0].trim()}
               </div>
               <div className="absolute bottom-6 left-6 right-6 bg-brand-950/80 backdrop-blur-md rounded-2xl px-5 py-4 border border-white/10">
-                <div className="text-accent-400 font-bold text-sm mb-1">✦ Highlight</div>
+                <div className="text-accent-400 font-bold text-sm mb-1">{t.featuresPage.monitoring.highlightLabel}</div>
                 <div className="text-white font-semibold text-sm">{t.featuresPage.content.highlight}</div>
               </div>
             </motion.div>
@@ -378,7 +378,7 @@ const FeaturesPage = () => {
             >
               {card.highlight && (
                 <div className="absolute top-4 right-4 bg-accent-400 text-brand-950 text-[11px] font-black px-2.5 py-1 rounded-full tracking-wide">
-                  KEY
+                  {t.featuresPage.cta.keyLabel}
                 </div>
               )}
               <div className="text-3xl mb-5">{card.icon}</div>
@@ -521,16 +521,16 @@ const FeaturesPage = () => {
               className="relative rounded-3xl overflow-hidden shadow-[0_24px_48px_rgba(8,103,136,0.18)] group"
             >
               <img
-                src="https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=900&q=80"
+                src="/assets/VNVAR assets/IMG/Thiết kế chưa có tên.png"
                 alt="Android TV app for digital signage"
                 className="w-full h-[480px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-tr from-brand-700/55 to-transparent mix-blend-multiply" />
               <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full text-brand-600 font-bold text-sm flex items-center gap-2 shadow-lg">
-                📺 Android TV App
+                {t.featuresPage.android.professionalSpace}
               </div>
               <div className="absolute bottom-6 left-6 right-6 bg-brand-950/80 backdrop-blur-md rounded-2xl px-5 py-4 border border-white/10">
-                <div className="text-accent-400 font-bold text-sm mb-1">✦ Highlight</div>
+                <div className="text-accent-400 font-bold text-sm mb-1">{t.featuresPage.monitoring.highlightLabel}</div>
                 <div className="text-white font-semibold text-sm">{t.featuresPage.android.highlight}</div>
               </div>
             </motion.div>
@@ -607,13 +607,13 @@ const FeaturesPage = () => {
               {t.featuresPage.cta.desc}
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-              <button 
+              <button
                 onClick={() => openContactModal(t.featuresPage.cta.btnStart)}
                 className="bg-accent-400 text-brand-950 px-8 py-4 rounded-full font-black hover:bg-accent-500 transition-all text-lg shadow-xl shadow-accent-400/20 hover:scale-105 active:scale-95"
               >
                 {t.featuresPage.cta.btnStart}
               </button>
-              <button 
+              <button
                 onClick={() => openContactModal(t.featuresPage.cta.btnExpert)}
                 className="bg-white/10 text-white border border-white/20 px-8 py-4 rounded-full font-bold hover:bg-white/20 transition-all text-lg backdrop-blur hover:scale-105 active:scale-95"
               >

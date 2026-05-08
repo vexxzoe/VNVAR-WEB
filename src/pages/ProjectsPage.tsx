@@ -152,7 +152,7 @@ const ProjectsPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
               <button 
-                onClick={() => openContactModal('Giải pháp VNSIGN')}
+                onClick={() => openContactModal('Giải pháp VNVAR')}
                 className="bg-accent-400 text-brand-950 px-8 py-4 rounded-full font-black hover:bg-accent-500 transition-all text-lg shadow-xl shadow-accent-400/20 hover:scale-105 active:scale-95 inline-flex items-center justify-center gap-2 cursor-pointer"
               >
                 <Rocket className="w-5 h-5" /> {t.projectsPage.cta.button}

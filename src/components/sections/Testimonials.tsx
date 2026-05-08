@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
-import { 
-  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play, 
-  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings, 
+import {
+  Monitor, Layout, Clock, Cloud, Shield, Zap, ChevronRight, Menu, X, Play,
+  CheckCircle2, ArrowLeft, AlertCircle, Tv, Smartphone, Globe, Settings,
   BarChart3, ChevronDown, FileText, Youtube, Award, Users, Rocket, HeartHandshake
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
@@ -25,7 +25,7 @@ const Testimonials = () => {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {t.testimonials.reviews.map((review, i) => (
+          {t.testimonials.reviews.map((review: any, i: number) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, scale: 0.9 }}
@@ -51,7 +51,7 @@ const Testimonials = () => {
                 </div>
                 <div>
                   <div className="font-black text-brand-600 text-sm">{review.author}</div>
-                  <div className="text-[10px] text-brand-400 font-bold uppercase tracking-widest">Customer</div>
+                  <div className="text-[10px] text-brand-400 font-bold uppercase tracking-widest">{review.role}</div>
                 </div>
               </div>
             </motion.div>
